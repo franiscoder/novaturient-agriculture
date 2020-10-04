@@ -7,10 +7,12 @@ import net.minecraft.particle.ParticleEffect;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
+import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 
 import java.util.Random;
 
+@Mixin(SaplingBlock.class)
 public class MixinSaplingBlock extends SaplingBlock {
 
     public MixinSaplingBlock(SaplingGenerator generator, Settings settings) {

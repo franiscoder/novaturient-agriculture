@@ -1,10 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "io.github.franiscoder.novaturient",
+  "package": "io.github.franiscoder.novaturient.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MixinSaplinBlock"
+    "MixinSaplingBlock"
   ],
   "injectors": {
     "defaultRequire": 1
