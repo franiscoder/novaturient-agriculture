@@ -1,0 +1,38 @@
+{
+  "parent": "block/block",
+  "credit": "Made with Blockbench",
+  "textures": {
+    "0": "block/dark_oak_planks",
+    "particle": "block/dark_oak_planks"
+  },
+  "elements": [
+    {
+      "name": "pestle",
+      "from": [3, 7, 7.5],
+      "to": [4, 10, 8.5],
+      "rotation": {"angle": 22.5, "axis": "z", "origin": [11, 14, 15]},
+      "faces": {
+        "north": {"uv": [0, 4, 1, 7], "texture": "#0"},
+        "east": {"uv": [5, 0, 6, 3], "texture": "#0"},
+        "south": {"uv": [8, 4, 9, 7], "texture": "#0"},
+        "west": {"uv": [11, 0, 12, 3], "texture": "#0"},
+        "up": {"uv": [15, 0, 16, 1], "texture": "#0"},
+        "down": {"uv": [10, 13, 11, 14], "texture": "#0"}
+      }
+    },
+    {
+      "name": "pestle",
+      "from": [3, 5, 7],
+      "to": [5, 7, 9],
+      "rotation": {"angle": 22.5, "axis": "z", "origin": [11, 13, 7]},
+      "faces": {
+        "north": {"uv": [5, 3, 7, 5], "texture": "#0"},
+        "east": {"uv": [0, 3, 2, 5], "texture": "#0"},
+        "south": {"uv": [6, 3, 8, 5], "texture": "#0"},
+        "west": {"uv": [10, 3, 12, 5], "texture": "#0"},
+        "up": {"uv": [6, 11, 8, 13], "texture": "#0"},
+        "down": {"uv": [8, 1, 10, 3], "texture": "#0"}
+      }
+    }
+  ]
+}

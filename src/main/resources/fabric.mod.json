@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "io.github.franiscoder.novaturient.NovaturientAgriculture"
+    ],
+    "client": [
+      "io.github.franiscoder.novaturient.client.NovaturientAgricultureClient"
     ]
   },
   "mixins": [
